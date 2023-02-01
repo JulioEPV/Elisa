@@ -4,6 +4,22 @@
     padding: 0;
 }
 
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --hospital-purple: #6F21FF;
+    --principal-button-yellow: #FFF208;
+
+    --sm: 1.4rem;
+    --md: 1.6rem;
+    --lg: 1.8rem;
+}
+
 html {
     font-size: 62.5%;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
