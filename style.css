@@ -34,7 +34,7 @@ body {
 
 
 .contenedor-info {
-    border: 5px solid blue;
+  
 
     display: grid;
     grid-template-columns: 1fr; 
@@ -43,9 +43,6 @@ body {
     place-items: center;
 }
 
-.item-info {
-    border: 5px solid #00bcd4;
-}
 
 .contenedor-boton {
     border: 5px solid blue;
@@ -97,4 +94,25 @@ body {
     background-color: var(--principal-button-yellow);
     border-color: var(--principal-button-yellow);
     border-radius: 0.5rem;
+}
+
+.contenedor-info {
+    margin-bottom: 3rem;
+}
+.contenedor-info .item-info-1 img{
+    height: 16rem;
+        
+}
+
+.contenedor-info .item-info-2 span{
+    font-size: var(--lg);
+}
+
+.contenedor-info .item-info-3 span{
+    font-size: var(--sm);
+}
+
+.contenedor-info .item-info-4 span{
+    font-size: var(--sm);
+   
 }
