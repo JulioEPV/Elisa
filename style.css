@@ -45,7 +45,7 @@ body {
 
 
 .contenedor-boton {
-    border: 5px solid blue;
+    
 
     display: grid;
     grid-template-columns: 1fr; 
@@ -54,25 +54,22 @@ body {
     place-items: center;
 }
 
-.item-boton {
-    border: 5px solid #00bcd4;
-}
+
 
 .contenedor-footer {
-    border: 5px solid blue;
+ 
 
     display: grid;
     grid-template-columns: 1fr; 
     grid-template-rows: 3rem 3rem 3rem 3rem 3rem;
-    gap: 1rem; 
+   
     place-items: center;
+
+    background-color: var(--hospital-purple);
+    
 }
 
-.item-footer {
-    border: 5px solid #00bcd4;
 
-
-}
 
 .item-nav-2, .item-nav-4 {
     justify-self: right;
@@ -115,4 +112,70 @@ body {
 .contenedor-info .item-info-4 span{
     font-size: var(--sm);
    
+}
+
+.contenedor-boton {
+    margin: 3rem;
+}
+
+.contenedor-boton .item-boton-1 button {
+    font-size: var(--sm);
+    background-color: var(--principal-button-yellow);
+    border-color: var(--principal-button-yellow);
+    border-radius: 0.5rem;
+    padding-left: 4rem; 
+    padding-right: 4rem ;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.contenedor-boton .item-boton-2 button {
+    font-size: var(--sm);
+    background-color: var(--principal-button-yellow);
+    border-color: var(--principal-button-yellow);
+    border-radius: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.contenedor-boton .item-boton-3 button {
+    font-size: var(--sm);
+    background-color: var(--principal-button-yellow);
+    border-color: var(--principal-button-yellow);
+    border-radius: 0.5rem;
+    padding-left: 4rem; 
+    padding-right: 4rem ;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.contenedor-boton .item-boton-4 button {
+    font-size: var(--sm);
+    background-color: var(--principal-button-yellow);
+    border-color: var(--principal-button-yellow);
+    border-radius: 0.5rem;
+    padding-left: 4rem; 
+    padding-right: 4rem ;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.contenedor-footer .item-footer-1 span{
+    color: var(--white);
+}
+
+.contenedor-footer .item-footer-2 span{
+    color: var(--white);
+}
+
+.contenedor-footer .item-footer-3 span{
+    color: var(--white);
+}
+
+.contenedor-footer .item-footer-4 span{
+    color: var(--white);
+}
+
+.contenedor-footer .item-footer-5 span{
+    color: var(--white);
 }
