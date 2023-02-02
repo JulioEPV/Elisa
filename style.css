@@ -23,3 +23,34 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.contenedor-nav {
+    border: 5px solid blue;
+}
+
+.item-nav {
+    border: 5px solid #00bcd4;
+}
+
+.contenedor-info {
+    border: 5px solid blue;
+}
+
+.item-info {
+    border: 5px solid #00bcd4;
+}
+
+.contenedor-boton {
+    border: 5px solid blue;
+}
+
+.item-boton {
+    border: 5px solid #00bcd4;
+}
+
+.contenedor-footer {
+    border: 5px solid blue;
+}
+
+.item-footer {
+    border: 5px solid #00bcd4;
+}
