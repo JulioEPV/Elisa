@@ -25,6 +25,11 @@ body {
 
 .contenedor-nav {
     border: 5px solid blue;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 5rem 3rem;  
+    gap: 1.5rem; 
 }
 
 .item-nav {
@@ -33,6 +38,12 @@ body {
 
 .contenedor-info {
     border: 5px solid blue;
+
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows:16rem 3rem 1.6rem 1.6rem;
+    gap: 1.5rem; 
+    place-items: center;
 }
 
 .item-info {
@@ -41,6 +52,12 @@ body {
 
 .contenedor-boton {
     border: 5px solid blue;
+
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 4rem 4rem 4rem 4rem ;
+    gap: 1.5rem; 
+    place-items: center;
 }
 
 .item-boton {
@@ -49,8 +66,20 @@ body {
 
 .contenedor-footer {
     border: 5px solid blue;
+
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 3rem 3rem 3rem 3rem 3rem;
+    gap: 1rem; 
+    place-items: center;
 }
 
 .item-footer {
     border: 5px solid #00bcd4;
+
+
+}
+
+.item-nav-2, .item-nav-4 {
+    justify-self: right;
 }
